@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title> Flex Box Layout </title>
+   
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+
+    <nav class="navbar">
+    <style>
+    .navbar {
+    display: flex;
+    gap:40px;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: rgb(232, 226, 226);
+    }
+    </style>
+        <div class="left-menu">
+  
+            <a href="#">Products</a>
+            <a href="#">Solutions</a>
+            <a href="#">Community</a>
+            <a href="#">Resources</a>
+            <a href="#">Pricing</a>
+        </div>
+
+        <div class="right-menu">
+            <a href="#">Contact sales</a>
+            <button class="btn">Log-In</button>
+            <button class="btn">Get started for free</button>
+        </div>
+    </nav>
+
+    <!-- Main Heading -->
+/
+    <section class="Main-Heading">
+       <style>
+        .Main-Heading{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Main-Heading h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.Main-Heading p {
+    font-size: 18px;
+    color: #444;
+}
+       </style>    
+        <h1>Bring design and dev together.</h1>
+        <p>Easily translate designs into code with a workflow built for developers.</p>
+    </section>
+
+
+
+    <!-- Image Slider Section -->
+    <section class="slider">
+        <style>
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.arrow {
+    font-size: 35px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.img-box img {
+    width: 280px;
+    height: 180px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+</style>
+        <div class="arrow">&#10094;</div>
+
+        <div class="images">
+            <div class="img-box">
+                <img src="img1.png" alt="Design system image">
+            </div>
+            <div class="img-box">
+                <img src="img2.png" alt="Keep design and code connected">
+            </div>
+            <div class="img-box">
+                <img src="img3.png" alt="Focus on details in focus view">
+            </div>
+        </div>
+
+        <div class="arrow">&#10095;</div>
+
+    </section>
+
+
+    <!-- Description Boxes -->
+    <section class="descriptions">
+        <style>
+.descriptions {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px 50px;
+    background: #e9f3d6;
+}
+
+.desc-box {
+    width: 300px;
+}
+
+.desc-box h3 {
+    margin-bottom: 10px;
+}
+
+.desc-box p {
+    color: #444;
+}
+
+.desc-box a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+        </style>
+        <div class="desc-box">
+            <h3>Design systems that scale.</h3>
+            <p>Streamline the product development process with a design system aligned across design and code.</p>
+            <a href="#">Learn about design systems</a>
+        </div>
+
+        <div class="desc-box">
+            <h3>Keep design and code connected.</h3>
+            <p>Bring your component code into Dev Mode so developers get the right code.</p>
+            <a href="#">Learn about Dev Mode</a>
+        </div>
+
+        <div class="desc-box">
+            <h3>Focus on the details in Focus View.</h3>
+            <p>Select and inspect a specific design in Dev Mode.</p>
+            <a href="#">Learn about Focus View</a>
+        </div>
+    </section>
+
+</body>
+</html>
