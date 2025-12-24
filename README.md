@@ -3,7 +3,7 @@ This is repository for project submission. This repo contains a source code and 
 # UI Design Project – HTML & CSS
 
 ## Overview
-This project is a static user interface webpage developed using HTML5 and CSS3.
+This project is a static user interface webpage developed using HTMLand CSS.
 The layout is inspired by modern design tools such as Figma and demonstrates
 basic frontend development skills.
 
@@ -21,12 +21,9 @@ This project was created as part of an academic assignment to demonstrate:
 - Feature description cards
 
 ## Technologies Used
-- HTML5
-- CSS3 (Flexbox)
+- HTML
+- CSS (Flexbox)
 
-## How to Run
-1. Download or clone the repository
-2. Open `index.html` in any modern web browser
 
 ## Notes
 - This is a static UI project (no JavaScript used)
